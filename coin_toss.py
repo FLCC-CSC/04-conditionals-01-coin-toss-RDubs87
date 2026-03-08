@@ -1,6 +1,6 @@
 # FILE NAME - coin_toss.py
-# NAME: 
-# DATE: 
+# NAME: Rob Warner
+# DATE: March 7, 2026
 # BRIEF DESCRIPTION:  
 # 1. Make sure you fill out the comments above
 # 2. Write your code in the proper spot
@@ -8,7 +8,11 @@
 # 4. The Sample Output has been included in this code for your convenience
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+import random
+def flip_coin():
+    return random.choice(["Heads", "Tails"])
 
+print (flip_coin())
 
 
 
@@ -42,7 +46,7 @@ Tails
 
 '''
 
-1. What was the hardest part of completing this lab? 
+1. What was the hardest part of completing this lab? for me, the hardest part was getting to work. I always forget the extra set of ()
 
 
 
